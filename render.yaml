@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: coros-fit-analyzer-mcp
+    runtime: docker
+    plan: free
+    healthCheckPath: /healthz
+    autoDeploy: false
